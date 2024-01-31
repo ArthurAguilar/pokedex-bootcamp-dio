@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- API Pokemon -->
+    <!-- https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/media-queries.css">
+  </head>
+  <body>
+        <main id="content">
+            <h1 id="title">Pokedex</h1>
+
+            <ol id="list-pokedex">
+              <!-- Lista Pokemon via JS -->
+            </ol>
+
+            <div class="paginacao">
+              <button type="button" id="abrirMais">
+                    Load More
+              </button>
+            </div>
+        </main>
+
+        <script src="scripts/poke-api.js"></script>
+        <script src="scripts/script.js"></script>
+  </body>
+</html>
